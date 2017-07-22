@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device,user-scalable=no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="logo.svg">
+      <h1>Hoja de Vida</h1>
+      <h2>Luis Elías García Poveda</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#Educacion">Educación</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2><strong>Educación</strong></h2>
+      <article> <a name="Educacion"></a>
+      <table border="1">
+        <thead>
+          <tr>
+            <th><strong>Año</strong></th>
+            <th><strong>Institución</strong></th>
+            <th><strong>Lugar</strong></th>
+            <th><strong>¿Culminó?</strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2008</td>
+            <td>Universidad Católica Santiago de Guayaquil</td>
+            <td>Guayaquil</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>Academia Naval Guayaquil</td>
+            <td>Guayaquil</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>1996</td>
+            <td>Academia Naval Guayaquil</td>
+            <td>Guayaquil</td>
+            <td>Sí</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3><strong>Agregar Estudios</strong></h3>
+      <form autocomplete="on" method="post">
+          <p><label for="Año"><strong>Año:</strong></label>
+            <select name="cmbAnio" id ="cmbAnio">
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016" selected="true">2016</option>
+              <option value="2017">2017</option>
+            </select>
+          </p>
+          <p>
+            <label for="Institución"><strong>Institución:</strong></label>
+            <input type="text" name="txtInstitucion" id="txtInstitucion" required>
+          </p>
+          <p>
+            <label for="Lugar"><strong>Lugar:</strong></label>
+            <textarea name="txtLugar" rows="2" cols="26" id="txtLugar"></textarea>
+          </p>
+          <p>
+            <label for="¿Culminó?"><strong>¿Culminó?</strong></label>
+            <input type="radio" name="rbtCulmino" value="Si"> Si
+            <input type="radio" name="rbtCulmino" value="No"> No
+          </p>
+        <p>
+          <input type="submit" name="txtEnviar">
+        </p>
+
+      </form>
+      </article>
+    </section>
+    <footer>
+      <p>
+        @Derechos Reservados.
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:lego35@outlook.com">lego35@outlook.com</a></br></li>
+          <li><strong>Teléfono:</strong> +(593)992325200 </br></li>
+          <li><strong>Facebook:</strong> legoblaster </br></li>
+          <li><strong>Instagram:</strong> @lego3167 </br></li>
+        </ul>
+      </p>
+    </footer>
+  </body>
+</html>
